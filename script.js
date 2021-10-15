@@ -31,7 +31,7 @@ var c = canvas.getContext('2d')
 
  function eraseWhole(){
  	c.clearRect(0, 0, xlim, ylim);
- }
+ }  //წაშლა
 
 addEventListener("mousemove", (e) => {
 	mouse.x = e.clientX - bound.left;
